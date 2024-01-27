@@ -2,7 +2,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Spotify do this cuz i like it";
     Text = "Enjoy i damage my finger 2 times xD";
     Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150";
-    Duration = 5;
+    Duration = 2;
 })
 
 wait(2)
@@ -28,6 +28,7 @@ local Resume = Instance.new("ImageButton")
 local Update = Instance.new("TextButton")
 local Token = Instance.new("TextBox")
 local Credit = Instance.new("TextLabel")
+local a = print("a")
 
 Premuim.Name = 'Premuim'
 SpotifyGUI.Name = "SpotifyGUI"
